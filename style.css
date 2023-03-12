@@ -1,0 +1,124 @@
+*{
+    background-color: #000000;
+    color: white;
+    font-family: 'IBM Plex Mono', monospace;
+}
+.grid-container{
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: auto 1fr 1fr;
+    grid-template-rows: auto 1fr auto;
+}   
+header{
+    grid-column: span 2;
+}
+footer{
+    display: flex;
+    grid-column: span 3;
+    justify-content: right;
+}
+main{
+    grid-column: span 3;
+    background-color: black;
+    margin: 5% 15%;
+    font-size: 130%;
+}
+.flex-container{
+    display: flex;
+}
+nav{
+    justify-content: right;
+}
+nav > ul{
+    list-style-type: none;
+    padding-inline-start: 0;
+    padding: 0;
+    margin: 2px;
+}
+nav > ul>li{
+    margin: 3px;
+    padding: 1em;
+}
+nav > ul > li > a{
+    font-weight: bold;
+    color: white;
+}
+nav > ul > li > a:link {
+text-decoration: none;
+}
+nav > ul > li > a:visited {
+    text-decoration: none;
+}
+nav > ul > li > a:hover {
+    text-decoration: none;
+}
+nav > ul > li > a:active {
+    text-decoration: none;
+}
+div > h1{
+    margin: 0px;
+    align-self: center;
+    margin-left: 15px;
+    background-color: #121212;
+    padding: 5px;
+}
+div > h2{
+    margin: 0px;
+    align-self: center;
+    font-size: 40px;
+}
+div > p{
+    margin-right:30%;
+}
+input{
+    background-color: #121212;
+    border: none;
+    height: 2vw;
+    color: white;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 84%;
+    margin: .8vw 0;
+}
+textarea{
+    width: 30vw;
+    height: 30vw;
+    background-color: #121212;
+    border: none;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 85%;
+    color: white;
+}
+.contact{
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+}  
+.contact-message p{
+    margin: 20% 10% 0 5%;
+}
+a>img{
+    height: 2em;
+    margin: .5vw 0;
+}
+.job{
+    display: flex;
+    justify-content: space-between;
+}
+.job p{
+    margin-right: 0;
+}
+ul{
+    margin-top: 0;
+}
+li{
+    margin-bottom: 1vh;
+}
+iframe{
+    margin: 0 auto;
+    display: block;
+    border: none;
+}
+.projects{
+    display: flex;    
+}
